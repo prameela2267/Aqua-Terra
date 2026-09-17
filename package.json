@@ -1,0 +1,24 @@
+{
+  "name": "smart-irrigation-system",
+  "version": "1.0.0",
+  "description": "Smart Irrigation System Using Soil Moisture and Weather Data (Full-Stack)",
+  "scripts": {
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "test:server": "npm test --prefix server",
+    "install:all": "npm install --prefix server && npm install --prefix client"
+  },
+  "keywords": [
+    "smart-irrigation",
+    "iot",
+    "precision-agriculture",
+    "soil-moisture",
+    "openweather",
+    "react",
+    "express",
+    "mongodb"
+  ],
+  "author": "CSP Project Team",
+  "license": "MIT"
+}
